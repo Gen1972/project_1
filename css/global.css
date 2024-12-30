@@ -7,3 +7,8 @@
 h1 {
     color: brown;
 }
+
+body {
+    border: 10px solid red;
+  }
+  
