@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-color: #D27487;
+    --secondary-color: #222222;
+    --menu-color: #6F6F64;
+    --location-color: #FFFFFF;
+    --footer-color: #1F1F1F;
+    
+    --background-color: #E9E9E3;
+
+    --font-family: 'Inter', sans-serif;
+    --font-size-base: 32px;
+}
