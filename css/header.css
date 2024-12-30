@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/InterDisplay-Regular.woff2') format('woff2');
+    src: url('../fonts/Inter-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,7 +19,7 @@ header {
     background-color: #4A2B33 ;
     max-width: 100%;
     height: 120px;    
-    font-family: 'InterDisplay', serif;
+    font-family: 'Inter', serif;
 
 }
 
