@@ -81,13 +81,23 @@ a {
     margin-left: 435px;
     margin-right: 435px;        
 }
+.built {
+    display: flex;
+    margin-left: 32px;
+}
+
+.powerd {
+    display: flex;
+    margin-left: 32px;
+}
 
 p {
     font-size: 13px;
-    color: #696969;
+    color: #696969;    
 }
 
 .name {
     color: #6D6B67;
+    margin-left: 3px;
 
 }
