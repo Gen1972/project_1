@@ -71,12 +71,13 @@ a {
     margin-right: 0; 
 }
 
-.footer-copyright {
-    background-color:chocolate;
+.footer-copyright {    
     display: flex;
+    align-items:center;
     margin-top: 16px; 
-    margin-left: 435px;
-    margin-right: 435px;        
+    margin-left: 430px;
+    margin-right: 430px; 
+    min-height: 30px;       
 }
 .built {
     display: flex;
