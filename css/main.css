@@ -5,25 +5,171 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('../fonts/AzeretMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 * {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 
-.main-container{
+main {
     max-width: 100%;
-    height: 680px;
-    background-color:#4A2B33;
+    background-color:lightgray;
+}
+.main-container{    
+    max-width: 1440px;   
+    height: 4825px;     
 }
 
 .section-hero {
-    max-width: 1440px;    
+    max-width: 100%; 
+    height: 680px;  
+    background-color:#4A2B33;
 }
 
 .hero-banner {
     margin: 0 56px 36px;
 }
+
+.section-about {
+    background-color: white;
+    max-width: 100%;    
+    height: 710px;
+}
+
+.about {    
+    padding: 220px 270px 220px 270px;  
+} 
+
+.about-title {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Azeret Mono';
+    font-weight: bold;
+}
+
+.about-description {
+    margin-top: 5px;
+    width: 85%;
+    height:224px;
+    line-height: 44px;
+    font-size: 32px;
+    font-family: 'Inter' sans-serif;
+    color: #222222;
+}
+
+.section-menu {
+    max-width: 100%; 
+    height: 1277px;  
+    background-color:#E9E9E3;
+}
+
+.menu-wrapper {
+    display: flex;
+    column-gap: 130px;    
+    padding: 120px 56px;
+}
+
+.menu-title {
+    color: #6F6F64;
+    font-size: 18px;
+    font-family: 'Azeret Mono';
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.menu-description {
+    width: 110%;
+    color: #6F6F64;
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: normal;
+    line-height: 44px;        
+}
+
+.button-container {
+    margin-top: 65px;
+}
+
+.button {
+    width: 530px;
+    height: 58px;
+    margin-bottom: 12px;
+    border: 2px solid #6F6F64;
+    font-size: 15px;
+    font-family: 'Inter'; 
+    font-weight: normal;    
+    line-height: 24px;
+    color: #6F6F64;
+    cursor: pointer;
+    background-color: #E9E9E3;
+}
+
+.btn-primery {
+    background-color:#6F6F64;    
+    color:#FFFFFF;
+    
+}
+
+.location {
+    max-width: 100%;
+    height: 470px;    
+    padding: 120px 20px;
+    background-color: #AA9E54;
+}
+
+.location-wrapper {
+    display: flex;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.location-item {
+    text-align: center;
+}
+
+.location-item h3 {
+    color: #FFFFFF; 
+    font-family: 'Azeret Mono';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+
+.location-item p {
+    color: #FFFFFF; 
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.days {
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
 
 
 
