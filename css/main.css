@@ -163,6 +163,61 @@ main {
     margin-top: 35px;
 }
 
+.gallery-wrapper {
+    background-color: white;
+    display: flex;    
+    padding: 120px 20px;      
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;    
+    margin-top: 32px;
+    margin-left: 36px;
+}
+
+.right-column {
+    margin-top: 32px;
+    margin-right: 36px;
+}
+
+.section-winning {
+    background-color:#4A2B33;
+    max-width: 100%;
+    height: 460px;
+    padding: 120px 20px;
+}
+
+.winning-container {    
+    display: flex;  
+    column-gap: 267px; 
+    padding-left: 16px;
+    padding-right: 69px;; 
+}
+
+.left-content p {
+    font-size: 47px;
+    font-weight: normal;
+    color: #D27487;
+    font-weight: normal;
+    font-family: 'Azeret Mono';
+    line-height: 62px;
+    /* margin-right: 267px; */
+    /* margin-left: 16px; */
+    margin-bottom: 95px;
+}
+
+.right-content p {
+    max-width: 595px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Inter';
+    color: #D27487;
+    margin-top: 18px;
+    margin-bottom: 13px;    
+}
+
 
 
 
