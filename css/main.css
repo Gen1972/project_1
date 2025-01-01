@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    max-width: 100%;
+    height: 680px;
+    background-color:#4A2B33;
+}
+
+.section-hero {
+    max-width: 1440px;    
+}
+
+.hero-banner {
+    margin: 0 56px 36px;
+}
+
+
+
+
